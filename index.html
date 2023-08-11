@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet">
+    <title>RL6_helper</title>
+    <style>
+
+        .body{
+            background-color: aliceblue;
+        }
+    
+        .navbar{
+            display: flex;
+            align-items: center;
+            font-family:"SoDo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-seri f;
+           
+            background-color:#ffffff;
+    
+        }
+        .text_logo{
+            color :rgba(34, 34, 179, 0.826); 
+            font-weight: 600;
+            margin-left: 30px;
+            font-size: larger;
+        
+        }
+        .text_logo p{
+            size :100px;
+            padding :1px;
+            
+        }
+        .navbar_left div {
+            padding-left : 60px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right:60px;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 25px;
+
+        }
+        .navbar_left {
+            display:flex;
+            align-items: center;
+            position: relative;
+            left:450px;
+            background-color: rgb(64, 105, 241);
+            border-radius: 13px;
+        }
+        .navbar-right{
+            display:flex;
+            align-items:center;
+        }
+        .mb_text{
+            background-color: rgb(64, 105, 241);
+            width: 240px;
+            padding: 10px;
+            margin:15px;
+            border-radius: 20px;
+
+        }
+        .mb_text p{
+            font-size: 18px;
+            
+        }
+        .spinner {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+        .spinner .circle,
+        .spinner .line {
+        width: 260px;
+        height: 260px;
+        border: 5px solid black;
+        border-radius: 50%;
+        }
+
+        .spinner .circle {
+        position: relative;
+        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        animation: spinn 6s infinite linear;
+        }
+
+        .spinner .line {
+        display: block;
+        position: absolute;
+        top: -5px;
+        right: 0;
+        bottom: 0;
+        left: -5px;
+        }
+
+        .spinner .line:nth-child(1) {
+        transform: rotateY(36deg);
+        }
+
+        .spinner .line:nth-child(2) {
+        transform: rotateY(72deg);
+        }
+
+        .spinner .line:nth-child(3) {
+        transform: rotateY(108deg);
+        }
+
+        .spinner .line:nth-child(4) {
+        transform: rotateY(144deg);
+        }
+
+        @keyframes spinn {
+        100% {
+            transform: rotatey(360deg) rotatez(360deg);
+        }
+        }
+            
+        
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <img src = "C:\Users\mb183\Desktop\website_for_gays\bmstu_logo.jpg" alt = "bmstu" class = "ph_logo" >
+        <div class="navbar-right">
+            <div class="text_logo">
+                <p> Московское <br> Государственное <br> Техническое <br> Учреждение <br> Им. Н.Э. Баумана </p>
+            </div>
+        </div>
+        <div class="navbar_left">
+            <div>Новости</div>
+            <div class = "studing">Учеба</div>
+            <div>О нас</div>
+        </div>
+    </div>
+    <hr>
+    <div class ="mb_text"> <p> Привет! <br> Меня зовут Макс, и я являюсь
+         один из разработчиков даного сайта.
+          Если ты так же как и я не любишь подолгу 
+          искать информацию для подготовки к 
+          зачетам или задачи модульного дз тебе сюда.
+           Данный сайт - это библиотека методических пособий написанных студентами и 
+           преподавателями для студентов. Здесь вы 
+           найдете пости все что нужно и ничего больше.
+           (кроме трудолюбия).</p>
+        </div>
+        <div class="spinner">
+            <div class="circle">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+          </div>
+</body>
